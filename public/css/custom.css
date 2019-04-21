@@ -1,0 +1,98 @@
+@media (min-width: 900px) {
+    .centered {
+        position:absolute;
+        top:50%;
+        left:50%;
+        padding:1em;
+        width: 50%;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+
+    #Grade {
+        max-height: 50%;
+    }
+
+    table { height:60%; overflow-y:auto; display: block;}
+    table thead {position: sticky;}
+
+    body {
+        border: 3px solid #f36e21;
+    }
+}
+
+@media (max-width: 900px) {
+    .centered {
+        padding: 10px;
+    }
+
+    a {
+        padding: 0.5em;
+        background-color: #f36e21;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    a:hover {
+        background-color: #d5560c;
+        color: #fff;
+    }
+
+    body {
+        border-top: 3px solid #f36e21;
+    }
+
+    .app {
+        padding: 5px;
+    }
+
+}
+
+.danger {
+    background-color: #aa5555;
+    border-color: #ff0000;
+    color: #fff;
+    -webkit-animation: cssAnimation 2s forwards;
+    animation: cssAnimation 2s forwards;
+}
+
+@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.alert {
+    padding: 2em;
+    position: absolute;
+    width: 96.75%;
+    bottom: 0;
+}
+
+input {
+    color: #444;
+}
+
+a {
+    text-decoration: unset;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+}
+
+
+
+

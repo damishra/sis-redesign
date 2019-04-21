@@ -1,0 +1,16 @@
+Tables_in_sis
+course
+course_list
+course_section
+course_section_enroll_type
+course_section_user
+department
+grades
+login
+major
+major_course
+migrations
+role
+semester
+user
+user_advisor
